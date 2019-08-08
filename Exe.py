@@ -1,6 +1,4 @@
-
-
-
+#QuickSort
 
 #This function is used to find the number before and after the pivot
 def GetIndexToPartition(arr, min, max):
