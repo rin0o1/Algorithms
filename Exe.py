@@ -1,6 +1,6 @@
 
 
-import time
+
 
 #This function is used to find the number before and after the pivot
 def GetIndexToPartition(arr, min, max):
@@ -39,13 +39,11 @@ def QuickSort(arr, min , max):
         QuickSort(arr,Pivot+1,max)
         
 
-t1= time.perf_counter()
+
 arr= [10,7,1,8,9,1,5]
 max_= len(arr)-1
 min_=0
 QuickSort(arr, min_, max_)
-print (time.perf_counter()-t1, "time spended")
-print(arr[0])
-print(arr[-1])
+
 for x in arr:
     print (x)
