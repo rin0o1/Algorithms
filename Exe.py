@@ -26,7 +26,7 @@ def GetIndexToPartition(arr, min, max):
 def QuickSort(arr, min , max):
     
     
-    if min<max:
+    if min<max :
 
         #Height= position of the current Pivot
         Pivot= GetIndexToPartition(arr,min, max)
