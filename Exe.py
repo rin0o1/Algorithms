@@ -8,7 +8,7 @@ def GetIndexToPartition(arr, min, max):
 
     
     for Num in range(min, max):
-        #if the current number is smoller than Pivot...
+        #if the current number is smaller than Pivot...
         if arr[Num]<=Pivot:
             #Change the index of the minimum 
             MinValueIndex= MinValueIndex+1
