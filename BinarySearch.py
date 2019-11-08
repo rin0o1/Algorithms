@@ -29,4 +29,4 @@ if __name__=='__main__':
     Sort= QuickSort(Arr)
     res= SearchElementInArray(Arr, x, 0, len(Arr)-1)
     print(res)
-
+ 
