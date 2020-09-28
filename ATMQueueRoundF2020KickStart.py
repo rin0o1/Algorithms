@@ -3,7 +3,7 @@ def main(l, x, arr):
     q = []
     for i in range(0, l):
         e = arr[i]
-        q.append([(e) // x, i + 1])
+        q.append([(e-1) // x, i + 1])
 
     q.sort()
     return q
